@@ -1,0 +1,124 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#officehome-scroll-container"
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e5]:
+          - navigation [ref=e7]:
+            - generic [ref=e8]:
+              - link "M365 Copilot" [ref=e9] [cursor=pointer]:
+                - img [ref=e10]
+                - generic [ref=e11]: M365 Copilot
+              - button "Collapse side navigation panel" [expanded] [ref=e14]:
+                - img [ref=e16]
+            - generic [ref=e20]:
+              - button "Search" [ref=e24] [cursor=pointer]:
+                - img [ref=e27]
+                - generic [ref=e29]: Search
+              - button "Chat" [ref=e30] [cursor=pointer]:
+                - img [ref=e33]
+                - generic [ref=e35]: Chat
+              - generic [ref=e36]:
+                - button "Notebooks" [ref=e39] [cursor=pointer]:
+                  - img [ref=e42]
+                  - generic [ref=e44]: Notebooks
+                - button "Create" [ref=e47] [cursor=pointer]:
+                  - img [ref=e50]
+                  - generic [ref=e52]: Create
+                - button "Apps" [ref=e55] [cursor=pointer]:
+                  - img [ref=e58]
+                  - generic [ref=e60]: Apps
+                - button "Word" [active] [ref=e63] [cursor=pointer]:
+                  - generic [ref=e65]: Word
+                - button "Excel" [ref=e68] [cursor=pointer]:
+                  - generic [ref=e70]: Excel
+                - button "PowerPoint" [ref=e73] [cursor=pointer]:
+                  - generic [ref=e75]: PowerPoint
+                - button "Outlook" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e80]: Outlook
+                - button "OneDrive" [ref=e83] [cursor=pointer]:
+                  - generic [ref=e85]: OneDrive
+                - button "Teams" [ref=e88] [cursor=pointer]:
+                  - generic [ref=e90]: Teams
+                - button "OneNote" [ref=e93] [cursor=pointer]:
+                  - generic [ref=e95]: OneNote
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - button "SS" [ref=e102] [cursor=pointer]:
+                    - generic [ref=e103]: SS
+                  - generic: Suganthan S
+                - button "Settings and more" [ref=e105]:
+                  - img [ref=e107]
+              - button "Buy Microsoft 365" [ref=e110]
+          - status [ref=e111]
+        - application [ref=e113]:
+          - main [ref=e115]:
+            - main [ref=e117]:
+              - generic [ref=e121]:
+                - heading "What can I help you find?" [level=1] [ref=e123]
+                - generic [ref=e133]:
+                  - search [ref=e136]:
+                    - button [ref=e137]:
+                      - img [ref=e139]
+                    - combobox "Search box. Suggestions appear as you type" [ref=e141]
+                  - text:  
+                - generic [ref=e142]:
+                  - heading "Quick access" [level=2] [ref=e144]
+                  - generic [ref=e146]:
+                    - generic [ref=e147]:
+                      - tablist [ref=e148]:
+                        - tab "Recent" [selected] [ref=e150] [cursor=pointer]:
+                          - generic [ref=e151]: Recent
+                        - tab "Shared" [ref=e152] [cursor=pointer]:
+                          - generic [ref=e153]: Shared
+                        - tab "Favorites" [ref=e154] [cursor=pointer]:
+                          - generic [ref=e155]: Favorites
+                      - button "Upload" [ref=e158]:
+                        - img [ref=e160]
+                        - text: Upload
+                    - tabpanel "Recent" [ref=e162]:
+                      - generic [ref=e163]:
+                        - group [ref=e169]:
+                          - tablist [ref=e170]:
+                            - tab "All filters" [selected] [ref=e171]:
+                              - generic [ref=e174]: All
+                            - tab "Type" [ref=e175]:
+                              - button "Type" [ref=e177] [cursor=pointer]:
+                                - generic [ref=e178]:
+                                  - generic [ref=e180]: Type
+                                  - img [ref=e182]
+                            - tab "Notebooks" [ref=e184]:
+                              - generic "Notebooks" [ref=e185]:
+                                - generic "Notebooks" [ref=e187]
+                          - tab "Add a content filter" [ref=e188]:
+                            - img [ref=e189]
+                        - generic "Quick access" [ref=e191]:
+                          - table "Recently opened" [ref=e192]:
+                            - row "Name Modified Activity" [ref=e193]:
+                              - columnheader "Name"
+                              - columnheader "Modified"
+                              - columnheader "Activity"
+                            - rowgroup [ref=e196]:
+                              - row "Document.docx" [ref=e197]:
+                                - cell "Name Document" [ref=e198]:
+                                  - link "Document" [ref=e199] [cursor=pointer]:
+                                    - /url: https://d.docs.live.net/7f392e53343c838c/Document.docx
+                                    - img "Word" [ref=e203]
+                                  - generic [ref=e204]:
+                                    - link "Document" [ref=e206] [cursor=pointer]:
+                                      - /url: https://d.docs.live.net/7f392e53343c838c/Document.docx
+                                      - generic "Document.docx" [ref=e207]:
+                                        - generic [ref=e209]: Document
+                                    - generic "Your OneDrive" [ref=e211]:
+                                      - generic [ref=e212]: Your OneDrive
+                                  - button "More actions" [ref=e213]:
+                                    - img [ref=e217]
+                                - gridcell "Opened 49m" [ref=e219]: 49m
+                                - cell "Activity"
+  - tooltip "Word" [ref=e224]
+```
